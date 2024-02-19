@@ -16,7 +16,7 @@ export default function App(){
                     <Route path="/shoppingcartloggedin" element={<ShoppingCartLoggedIn/>}/>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/register" element={<Register/>}/>
-                    <Route path="*" element={<h1>PAGE NOT FOUND</h1>}/>
+                    <Route path="*" element={<h1>PAGE NOT FOUND AGAIN</h1>}/>
                 </Routes>
             </Router>
         </>
