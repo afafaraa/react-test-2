@@ -127,7 +127,7 @@ export default function Home(){
                 <div>
                     <input className="iptBoxes" id="iptSearch" type="text" placeholder="Search Product" onChange={e => findItems(e.target.value)}/>
                     <Link to="/shoppingcart"><button className="iptBoxes" id="btnSearch">Shopping Cart</button></Link>
-                    {/*<Link to="/login"><button className="iptBoxes">Login</button></Link>*/}
+                    <Link to="/login"><button className="iptBoxes">Login</button></Link>
                     <button className="iptBoxes" onClick={e => clearCart(e)}>Clear cart</button>
                 </div>
             </div>
