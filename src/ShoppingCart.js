@@ -36,7 +36,7 @@ export default function ShoppingCart(){
                 </div>
                 <div>
                     <Link to="/"><button className="iptBoxes" id="btnSearch">Home</button></Link>
-                    <Link to="/login"><button className="iptBoxes">Login</button></Link>
+                    {/*<Link to="/login"><button className="iptBoxes">Login</button></Link>*/}
                     <button className="iptBoxes" onClick={() => clearCart()}>Clear cart</button>
                 </div>
             </div>
