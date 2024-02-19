@@ -8,9 +8,9 @@ import HomeLoggedIn from "./HomeLoggedIn";
 export default function App(){
     return(
         <>
-            <Router basename="/react-test-2">
+            <Router>
                 <Routes>
-                    <Route path="/react-test-2" element={<Home/>}/>
+                    <Route path="/" element={<Home/>}/>
                     <Route path="/homeloggedin" element={<HomeLoggedIn/>}/>
                     <Route path="/shoppingcart" element={<ShoppingCart/>}/>
                     <Route path="/shoppingcartloggedin" element={<ShoppingCartLoggedIn/>}/>
